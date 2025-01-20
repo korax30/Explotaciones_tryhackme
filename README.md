@@ -1,37 +1,37 @@
 ## Alfred
-explotacion en el puerto 8080 credenciales admin admin, se crea un proyecto libre y se ejecuta un comando de windows en buil;
-escalacion: token seimpersonalprivilege;
+explotacion en el puerto 8080 credenciales admin admin, se crea un proyecto libre y se ejecuta un comando de windows en buil\
+escalacion: token seimpersonalprivilege\
 
 ## Brainpan_1
 Buffer overflow
 
 ## Gamezone
 explotacion: sqlinjection ' or 1=1 -- -\
-sqlmap
+sqlmap\
 puertos no expuestos
 
 
 ## HackPack
-explotacion: puerto 80 login fuerza bruta burbpsuit hydra;
-credenciales: admin : 1qaz2wsx;
-explotacion version
+explotacion: puerto 80 login fuerza bruta burbpsuit hydra\
+credenciales: admin : 1qaz2wsx\
+explotacion version\
 escalacion: servicio en ejecucion
 
 
 ## Kenobi
-explotacion: smbclient
-111
-como la maquina tenia una montura en /var se descargo la montura en la maquina donde tenia el id_rsa
+explotacion: smbclient\
+111\
+como la maquina tenia una montura en /var se descargo la montura en la maquina donde tenia el id_rsa\
 una vez dentro para escalar privilegios se aprovecho el archivo /usr/bin/menu
 
 ## Relevant
-explotacion: smb
-revershell aspx
+explotacion: smb\
+revershell aspx\
 setimpersonateprivilege
 
 ## Steel_mountain
-vulnerabilidad: puerto 8080
-HttpFileServer 2.3
+vulnerabilidad: puerto 8080\
+HttpFileServer 2.3\
 se puede reiniciar un servicio
 
 ## Blue
@@ -50,12 +50,12 @@ buffer overflow
 Identificar con wireshark el atacante como tuvo acceso a la maquina
 
 ## Skynet
-explotacion; listar directorios con smbclient
+explotacion; listar directorios con smbclient\
 hydra
 
 
 explotacion:
-puerto 3333
-fuzzing initial/uploads
-extension del archivo .phtml
+puerto 3333\
+fuzzing initial/uploads\
+extension del archivo .phtml\
 escalacion permisos suid /bin/systemctl
